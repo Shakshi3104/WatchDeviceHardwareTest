@@ -17,7 +17,7 @@
 		CE0E36E82711424400891917 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0E36E72711424400891917 /* Preview Assets.xcassets */; };
 		CE0E36F82711428F00891917 /* WatchDeviceHardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E36F72711428F00891917 /* WatchDeviceHardware.swift */; };
 		CE0E36FA271161DE00891917 /* DeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E36F9271161DE00891917 /* DeviceInformation.swift */; };
-		CE0E36FC2711637300891917 /* DeviceHardwareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E36FB2711637300891917 /* DeviceHardwareView.swift */; };
+		CE0E36FC2711637300891917 /* DeviceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0E36FB2711637300891917 /* DeviceInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,7 @@
 		CE0E36E92711424400891917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE0E36F72711428F00891917 /* WatchDeviceHardware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDeviceHardware.swift; sourceTree = "<group>"; };
 		CE0E36F9271161DE00891917 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
-		CE0E36FB2711637300891917 /* DeviceHardwareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHardwareView.swift; sourceTree = "<group>"; };
+		CE0E36FB2711637300891917 /* DeviceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 				CE0E36E62711424400891917 /* Preview Content */,
 				CE0E36F72711428F00891917 /* WatchDeviceHardware.swift */,
 				CE0E36F9271161DE00891917 /* DeviceInformation.swift */,
-				CE0E36FB2711637300891917 /* DeviceHardwareView.swift */,
+				CE0E36FB2711637300891917 /* DeviceInfoView.swift */,
 			);
 			path = "WatchDeviceHardwareTest WatchKit Extension";
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0E36FC2711637300891917 /* DeviceHardwareView.swift in Sources */,
+				CE0E36FC2711637300891917 /* DeviceInfoView.swift in Sources */,
 				CE0E36E12711424300891917 /* WatchDeviceHardwareTestApp.swift in Sources */,
 				CE0E36FA271161DE00891917 /* DeviceInformation.swift in Sources */,
 				CE0E36F82711428F00891917 /* WatchDeviceHardware.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  DeviceHardwareView.swift
+//  DeviceInfoView.swift
 //  WatchDeviceHardwareTest WatchKit Extension
 //
 //  Created by MacBook Pro on 2021/10/09.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DeviceHardwareView: View {
+struct DeviceInfoView: View {
     private let deviceInfo = DeviceInfo.shared
     var body: some View {
         NavigationView {
@@ -50,6 +50,6 @@ struct ListRow: View {
 
 struct DeviceHardwareView_Previews: PreviewProvider {
     static var previews: some View {
-        DeviceHardwareView()
+        DeviceInfoView()
     }
 }
