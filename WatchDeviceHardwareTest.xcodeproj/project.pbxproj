@@ -77,6 +77,8 @@
 		CE0E36F72711428F00891917 /* WatchDeviceHardware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDeviceHardware.swift; sourceTree = "<group>"; };
 		CE0E36F9271161DE00891917 /* DeviceInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInformation.swift; sourceTree = "<group>"; };
 		CE0E36FB2711637300891917 /* DeviceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoView.swift; sourceTree = "<group>"; };
+		CE463DC8271193010070875C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE463DCA2711942A0070875C /* screenshots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshots.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,8 @@
 		CE0E36C22711424000891917 = {
 			isa = PBXGroup;
 			children = (
+				CE463DCA2711942A0070875C /* screenshots.png */,
+				CE463DC8271193010070875C /* README.md */,
 				CE0E36D12711424100891917 /* WatchDeviceHardwareTest WatchKit App */,
 				CE0E36DD2711424300891917 /* WatchDeviceHardwareTest WatchKit Extension */,
 				CE0E36CA2711424100891917 /* Products */,
