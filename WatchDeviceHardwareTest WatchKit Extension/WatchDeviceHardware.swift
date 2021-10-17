@@ -163,6 +163,14 @@ class WatchDeviceHardware {
         case Watch5_11 = "Watch5,11"
         /// Apple Watch SE 44mm (GPS+Cellular)
         case Watch5_12 = "Watch5,12"
+        /// Apple Watch Series 7 41mm (GPS)
+        case Watch6_6 = "Watch6,6"
+        /// Apple Watch Series 7 45mm (GPS)
+        case Watch6_7 = "Watch6,7"
+        /// Apple Watch Series 7 41mm (GPS+Cellular)
+        case Watch6_8 = "Watch6,8"
+        /// Apple Watch Series 7 45mm (GPS+Cellular)
+        case Watch6_9 = "Watch6,9"
         
         // model name
         func modelName() -> String {
@@ -185,6 +193,8 @@ class WatchDeviceHardware {
                 return "Apple Watch Series 6"
             case .Watch5_9, .Watch5_10, .Watch5_11, .Watch5_12:
                 return "Apple Watch SE"
+            case .Watch6_6, .Watch6_7, .Watch6_8, .Watch6_9:
+                return "Apple Watch Series 7"
             }
         }
         
@@ -207,6 +217,8 @@ class WatchDeviceHardware {
                 return "Apple S5"
             case .Watch6_1, .Watch6_2, .Watch6_3, .Watch6_4:
                 return "Apple S6"
+            case .Watch6_6, .Watch6_7, .Watch6_8, .Watch6_9:
+                return "Apple S7"
             }
         }
         
@@ -222,7 +234,7 @@ class WatchDeviceHardware {
                 return "PowerVR"
             case .Watch4_1, .Watch4_2, .Watch4_3, .Watch4_4, .Watch5_1, .Watch5_2, .Watch5_3, .Watch5_4, .Watch5_9, .Watch5_10, .Watch5_11, .Watch5_12:
                 return "Apple G11M"
-            case .Watch6_1, .Watch6_2, .Watch6_3, .Watch6_4:
+            case .Watch6_1, .Watch6_2, .Watch6_3, .Watch6_4, .Watch6_6, .Watch6_7, .Watch6_8, .Watch6_9:
                 return "?"
             }
         }
